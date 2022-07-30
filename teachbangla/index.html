@@ -175,12 +175,47 @@
                       readable content of a page when looking at its layout.</p>
                   </div>
                   <div class="col-lg-6 col-sm-12 col-12  my-auto">
-                    <a href="" class="btn bg-white text-primary  px-3 fs-4 mx-auto"> Register Now</a>
+                    <a href="" class="btn bg-white text-primary  px-3 fs-4 mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal"> Register Now</a>
                   </div>
                 </div>
                 <!-- form star-->
                 <!-- form starts-->
-                
+                   <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ragister Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" aria-describedby="">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="lasttName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" aria-describedby="">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+</div>
                 <!-- form ends -->
             </section>
             <section>
